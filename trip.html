@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Josefin+Slab:ital,wght@0,400;0,500;0,700;1,600&family=Poppins:ital,wght@0,300;0,700;1,200;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap&family=Cinzel:wght@400;600;700&family=Josefin+Slab:ital,wght@0,400;0,500;0,700;1,600&family=Poppins:ital,wght@0,300;0,700;1,200;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Trip Kharkov</title>
+  </head>
+  <body>
+    <div class="box px-4">
+      <ul class="nav justify-content-center">
+        <li>
+          <img
+            src="./image/logo.png"
+            alt="logo"
+            width="40px"
+            href="./header.html"
+          />
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./header.html"
+            >Main Kharkov</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./trip.html"
+            >Trips</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./guides.html">Guides</a>
+        </li>
+      </ul>
+      <hr />
+      <h1 class="my-4">Shevchenko Garden</h1>
+      <p class="description-trips">
+        Shevchenko Garden - the most solid park of the State - In the garden
+        itself, which is the main city park, there are many fountains and
+        monuments. In particular, the famous fountain "Cascade" and the monument
+        to the soccer ball are located here. The Botanical Garden, the Kharkiv
+        Academic Theater of Opera and Ballet, the Kharkiv Zoo and others are
+        also adjacent to the garden itself.
+        <br />
+      </p>
+      <div class="d-md-flex justify-content-center m-4">
+        <a
+          class="btn btn-warning mx-2"
+          href="https://www.city.kharkov.ua/en/o-xarkove/istoriya/istoricheskij-ocherk.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LEARN MORE</a
+        >
+        <a
+          class="btn btn-primary"
+          href="./guides.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >BOOK A TRIPS</a
+        >
+      </div>
+
+      <div class="carous-photo">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner rounded overflow-hidden">
+            <div class="carousel-item active">
+              <img src="./image/1e.jpg" class="d-block w-100 h-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <video class="d-block w-100 h-85" autoplay loop>
+                <source
+                  src="./video/VID_20210905_161853 (1).mp4"
+                  class="d-block w-100 h-85"
+                  alt="..."
+                />
+              </video>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./image/pamyatnik-tarasu-shevchenko.jpg"
+                class="d-block w-100 h-85"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <h1 class="my-4">Park of Maxim Gorky</h1>
+      <p class="description-trips">
+        The origin of the park was from the City governing council who "put
+        forth a proposition to plant trees on 20-40,000 square metres on both
+        sides of the Sumskoy road"[1] The idea was that the area would be used
+        for horse riding in a similar manner to the Boulogne Forest. Teachers,
+        university students, and school students all assisted voluntarily with
+        the tree planting. Each tree had a plaque planted next to it showing who
+        had planted it. In 1899 in honour of the 100th birthday of Alexander
+        Pushkin the size of the park was doubled. In 1932 the park was increased
+        again in size to its ultimate size of 130 hectares.
+        <br />
+      </p>
+      <div class="carous-photo">
+        <div
+          id="carouselExampleIndicators2"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="d-md-flex justify-content-center m-4">
+            <a
+              class="btn btn-warning mx-2"
+              href="https://en.wikipedia.org/wiki/Park_of_Maxim_Gorky"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LEARN MORE</a
+            >
+            <a
+              class="btn btn-primary"
+              href="./guides.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >BOOK A TRIPS</a
+            >
+          </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators2"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators2"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators2"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner rounded overflow-hidden">
+            <div class="carousel-item active">
+              <img
+                src="./image/Park-Gorkogo-Harkov.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./image/american.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./image/Білка.jpg"
+                class="d-block w-100 h-85"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <h1 class="my-4">Feldman EcoPark</h1>
+      <p class="description-trips">
+        Regional landscape park Feldman Ecopark is a large-scale charity
+        project, the goal of which is to raise a morally and physically healthy
+        generation. Feldman Ecopark is located in the nearest suburb of Kharkiv,
+        at the address: Dergachivskyi district, village Lisne, Kyivske shose,
+        12. Anyone who wishes can visit the zoo for free here, where more than
+        2,000 animals of 200 species are collected, a contact yard where you can
+        feed and pet pets, cozy gazebos, a place for yoga, a healthy food
+        restaurant, a rope town , children's attractions, a stable and arena,
+        theatrical performances with the participation of horses and ponies and
+        much more.
+        <br />
+      </p>
+      <div class="d-md-flex justify-content-center m-4">
+        <a
+          class="btn btn-warning mx-2"
+          href="https://simple.wikipedia.org/wiki/Feldman_Ecopark"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LEARN MORE</a
+        >
+        <a
+          class="btn btn-primary"
+          href="./guides.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >BOOK A TRIPS</a
+        >
+      </div>
+
+      <div class="carous-photo">
+        <div
+          id="carouselExampleIndicators3"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner rounded overflow-hidden">
+            <div class="carousel-item active">
+              <img
+                src="./image/Feldman-park/5.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./image/Feldman-park/3.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./image/Feldman-park/1.jpg"
+                class="d-block w-100 h-85"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators3"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators3"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+      </div>
+      <ul class="social-links d-flex">
+        <li>
+          <a href="https://www.facebook.com/kharkovgovernment"
+            ><i class="social social-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/i/flow/kharkovgovernment"
+            ><i class="social social-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.snapchat.com/kharkovgovernment"
+            ><i class="social social-snapchat"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/kharkovgovernment"
+            ><i class="social social-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="./header.html">Main Kharkov</a></li>
+        <li><a href="./trip.html">Trips</a></li>
+        <li><a href="./guides.html">Guides</a></li>
+      </ul>
+      <p class="footer-index">61003 Ukraine, Kharkiv, pl. Constitutions,7</p>
+    </footer>
+  </body>
+</html>

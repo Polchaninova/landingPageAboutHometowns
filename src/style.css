@@ -1,0 +1,169 @@
+body {
+  background-image: url("/image/fon-krasivo-27.jpg");
+  /* font-family: "Cinzel", serif;
+  font-family: "Josefin Slab", serif;
+  font-family: "Poppins", sans-serif; */
+}
+
+.box {
+  max-width: 1204px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  mix-blend-mode: normal;
+  display: block;
+  background: linear-gradient(
+    #6ba8d4,
+    #c1d0d9,
+    #c47357,
+    #f1bc21,
+    #529ed1,
+    #c1d0d9
+  );
+  margin: 0 auto;
+}
+h1 {
+  color: #1a0c57;
+  font-weight: 700;
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+}
+.img-header-bild {
+  padding-top: 72px;
+  width: auto;
+  height: 600px;
+  border-radius: 8px;
+  padding-top: 16px;
+  border-radius: 15px;
+}
+.img-header {
+  text-align: center;
+}
+.nav {
+  padding-top: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  line-height: 24px;
+  color: rgb(245, 246, 247);
+}
+.description-trips {
+  background: rgba(4, 8, 46, 0.5);
+  color: rgb(245, 246, 247);
+  border-radius: 4px;
+  padding: 15px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 700;
+}
+.nav-link {
+  color: rgb(245, 246, 247);
+}
+.btn {
+  display: inline-block;
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 3px;
+  color: rgb(249, 249, 250);
+  font-weight: 500;
+}
+.btn-shevchenko {
+  padding-top: 0px;
+}
+.active {
+  color: orange;
+}
+.carous-photo {
+  padding-top: 0px;
+  padding-bottom: 35px;
+}
+.kharkiv-text {
+  background: rgba(4, 8, 46, 0.5);
+  color: rgb(245, 246, 247);
+  border-radius: 4px;
+  margin: 20px 20px;
+}
+.cards {
+  background: rgba(4, 8, 46, 0.5);
+  color: rgb(245, 246, 247);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.card-title {
+  font-size: 35px;
+  font-weight: 510;
+
+  line-height: 3;
+  text-align: center;
+}
+
+.guides-btn {
+  margin: 0 auto;
+  display: block;
+}
+footer {
+  position: relative;
+  width: 100%;
+  padding: 30px 60px;
+  background: #b5d68e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Josefin Slab", serif;
+}
+
+.social-links {
+  list-style: none;
+  padding: 20px;
+}
+
+.social {
+  margin: 0 20px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-image: url("/image/book/Social.webp");
+}
+
+.social-facebook {
+  background-position: 63% 51%;
+  background-size: 300px;
+  filter: contrast(50%);
+}
+
+.social-twitter {
+  background-position: 34% 51%;
+  background-size: 300px;
+}
+
+.social-instagram {
+  background-position: 92% 51%;
+  background-size: 300px;
+}
+
+.social-snapchat {
+  background-position: 4% 51%;
+  background-size: 300px;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+}
+.menu li a {
+  font-size: 1.2em;
+  color: rgba(3, 3, 3, 0.822);
+  opacity: 0.75;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  opacity: 1;
+}
+.footer-index {
+  padding: 20px;
+}
