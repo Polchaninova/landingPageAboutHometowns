@@ -1,5 +1,9 @@
+html {
+  height: 100%;
+}
 body {
   background-image: url("/image/fon-krasivo-27.jpg");
+  background-size: cover;
   /* font-family: "Cinzel", serif;
   font-family: "Josefin Slab", serif;
   font-family: "Poppins", sans-serif; */
@@ -166,4 +170,43 @@ footer {
 }
 .footer-index {
   padding: 20px;
+}
+
+.form-box {
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+  background: rgba(13, 13, 14, 0.5);
+  color: rgb(243, 245, 245);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  width: 400px;
+  height: 700px;
+}
+.modal-block {
+  margin-top: 10px;
+}
+.form-btn {
+  margin-top: 50px;
+  width: 100%;
+}
+h2 {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  background: rgba(13, 13, 14, 0.5);
+  color: rgb(243, 245, 245);
+  font-family: "Poppins, sans-serif";
+}
+.after-submit {
+  display: block;
+}
+.hidden {
+  display: none;
 }
